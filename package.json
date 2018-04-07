@@ -5,6 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
-    "sourcequery": "^0.0.2",
+    "sourcequery": "^0.0.2"
   }
 }
