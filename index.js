@@ -1,7 +1,6 @@
 var sourceQuery = require('sourcequery')
 const express = require('express')
 const app = express()
-var asyncLib = require('async');
 var sq = new sourceQuery(10000); // 1000ms timeout 
 
 async function query(ip, port) {
