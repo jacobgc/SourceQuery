@@ -5,7 +5,7 @@ var sq = new sourceQuery(10000); // 1000ms timeout
 
 async function query(ip, port) {
     return new Promise(function (resolve, reject) {
-        sq.open('208.103.169.23', 27015);
+        sq.open(ip, port);
         sq.getInfo(function (err, info) {
             if (err) reject(err);
             resolve(info);
