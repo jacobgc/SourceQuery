@@ -15,7 +15,7 @@ async function query(ip, port) {
 }
 
 
-app.get('/', (req, res) => res.send('Usage: HOSTNAME.COM/IP/PORT'))
+app.get('/', (req, res) => res.send('Usage: https://sourcequeryer.herokuapp.com/IP:PORT'))
 
 app.get('/*:*', async (req, res) => {
     var ipPort = req.url.split(":"); // Split into array [ip, port]
